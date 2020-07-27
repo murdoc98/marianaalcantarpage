@@ -1,0 +1,46 @@
+.services {
+    background-color: #ffe7dc;
+    .center-content {
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    h2 { 
+        font-size: 4vh;
+        padding-top: 4vh;
+        padding-bottom: 1.6vh;
+    }
+    .service {
+        font-size: 1.8vh;
+        width: 48%;
+        margin-bottom: 4vh;
+        transition: 200ms all;
+        .service-title {
+            color: white;
+            height: auto;
+            span {
+                background-color: #ff8b56;
+                padding-left: 1.4vh;
+                padding-right: 1.4vh;
+            }
+        }
+        .service-content {
+            margin-top: 1px;
+            padding: 2vh;
+            border: 1px solid #ff8b56;
+            span { font-weight: bolder; }
+        }
+        &:hover {
+            .service-title span { background-color: #148EB2; }
+            .service-content { border: 1px solid #148EB2; }
+        }
+    }
+    .service#service-left { float: left; }
+    .service#service-right { float: right; }
+}
+@media (max-width: 1080px) {
+    .service#service-left, .service#service-right { 
+        float: none;
+        width: 100%; 
+    }
+}

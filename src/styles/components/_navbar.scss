@@ -1,0 +1,26 @@
+.navbar {
+    position: fixed;
+    padding-top: 2vh;
+    padding-left: 0.4vh;
+    ul {
+        li {
+            line-height: 3vh;
+            list-style: none;
+            a {
+                font-size: 2.4vh;
+                color: #2F2F4F;
+                transition: 300ms all;
+                font-weight: bolder;
+                text-decoration: none;
+                &:hover {
+                    color: #1e1e99;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 720px) {
+    .navbar {
+        display: none; 
+    }
+}

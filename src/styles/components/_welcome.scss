@@ -1,0 +1,78 @@
+.welcome {
+    background-color: #a6e9a6;
+    height: 90vh;
+    color: #2F2F4F;
+    #welcome-image {
+        padding-top: 20vh;
+        height: 50vh;
+        float: right;
+        width: 40%;
+    }
+    #welcome-text {
+        float: left;
+        width: 60%;
+        h1, h2 {
+            margin-block-end: 0.3em;
+            margin-block-start: 0.3em;
+        }
+        h1 {
+            padding-top: 28vh;
+            font-size: 8vh;
+            padding-left: 1vh;
+        }
+        h2 { 
+            font-size: 4vh;
+            font-weight: lighter;
+        }
+        .social-networks {
+            ul {
+                padding: 0;
+                padding-left: 4vh;
+                li {
+                    list-style: none;
+                    display: inline-block;
+                    img {
+                        height: 4vh;
+                    }
+                    svg {
+                        height: 4vh;
+                        width: 4vh;
+                        padding-left: 1vh;
+                        padding-right: 1vh;
+                        fill: #2F2F4F;
+                        transition: 300ms all;
+                        &:hover {
+                            fill: #252592;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 980px) {
+    .welcome {
+        text-align: center;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .welcome #welcome-image, .welcome #welcome-text { 
+        float: none;
+        width: 100%;
+        padding-top: 5vh;
+    }
+    .welcome #welcome-image {
+        height: 150px;
+    }
+    .welcome #welcome-text {
+        h1 {
+            font-size: 40px;
+            padding-left: 1vh;
+            padding-top: 0;
+        }
+        h2 { 
+            font-size: 30px;
+            font-weight: lighter;
+        }
+    }
+}

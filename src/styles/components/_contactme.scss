@@ -1,0 +1,30 @@
+.contactme {
+    text-align: center;
+    color: white;
+    background-color: #2F2F4F;
+    height: 30vh;
+    .center-content {
+        padding-top: 7.8vh;
+    }
+    h2 { font-size: 4vh; }
+    h3 {
+        font-size: 2.1vh;
+        font-weight: lighter;
+        margin-block-end: 2em;
+        margin-block-start: 1em;
+    }
+    a {
+        font-size: 1.8vh;
+        text-decoration: none;
+        color: #2F2F4F;
+        border-radius: 2px;
+        border: solid 2px white;
+        background-color: white;
+        padding: 1vh 3vh;
+        transition: 300ms all;
+        &:hover {
+            background-color: #2F2F4F;
+            color: white;
+        }
+    }
+}

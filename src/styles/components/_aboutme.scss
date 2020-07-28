@@ -9,13 +9,11 @@
     #about-image {
         width: 40%;
         border-radius: 2px;
+        padding-right: 3vh;
         float: left;
         height: auto;
-        position: absolute;
     }
     #about-text {
-        width: 55%;
-        float: right;
         h2 { font-size: 4vh; }
         p {
             font-size: 1.8vh;

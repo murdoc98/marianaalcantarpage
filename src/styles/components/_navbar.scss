@@ -19,6 +19,11 @@
         }
     }
 }
+@media (max-width: 1300px) {
+    .navbar ul li a {
+        font-size: 1.9vh;
+    }
+}
 @media (max-width: 975px) {
     .navbar {
         display: none; 

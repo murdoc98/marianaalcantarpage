@@ -10,11 +10,8 @@
         width: 40%;
         float: right;
         height: auto;
-        position: absolute;
     }
     #presential-text {
-        width: 60%;
-        float: left;
         h2 { font-size: 4vh; }
         p, ul li {
             font-size: 1.8vh;
@@ -22,5 +19,22 @@
             margin-block-start: 0.6em;
             line-height: 1.1;
         }
+    }
+}
+@media (max-width: 1080px) {
+    .presential #presential-text {
+        width: 100%; 
+    }
+    .presential #presential-image {
+        width: 40%;
+        float: right;
+        position: relative;
+    }
+}
+@media (max-width: 400px) {
+    .presential #presential-image {
+        float: none;
+        margin: 0 auto;
+        display: block;
     }
 }

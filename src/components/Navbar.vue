@@ -3,10 +3,10 @@
         <nav>
             <ul>
                 <li><a href="#welcome">Inicio</a></li>
-                <li><a href="#aboutme">Acerca de mi</a></li>
-                <li><a href="#services">Servicios en linea</a></li>
+                <li><a href="#aboutme">Acerca de mí</a></li>
+                <li><a href="#services">Servicios en línea</a></li>
                 <li><a href="#presential">Eventos</a></li>
-                <li><a href="#policy">Politicas y pagos</a></li>
+                <li><a href="#policy">Políticas y pagos</a></li>
                 <li><a href="#contactme">Contacto</a></li>
             </ul>
         </nav>
